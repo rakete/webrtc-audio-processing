@@ -418,7 +418,9 @@ class AudioProcessing {
   virtual int StartDebugRecordingForPlatformFile(rtc::PlatformFile handle)
   {
   
+#if !defined(__WIN32__)
       if ((int)handle == 0) { return -1; } // prevent unsued parameter gcc warning
+#endif
       return -1;
   }
 
