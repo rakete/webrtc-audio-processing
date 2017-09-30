@@ -13,7 +13,7 @@
 #include <assert.h>
 #include <stdarg.h>
 
-#include "Mmsystem.h"
+#include "mmsystem.h"
 
 namespace webrtc {
 TraceWindows::TraceWindows()

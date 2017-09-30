@@ -13,7 +13,7 @@
 #include <assert.h>
 
 #ifdef _WIN32
-#include <Windows.h>
+#include <windows.h>
 #else
 #include <stdarg.h>
 #include <string.h>
